@@ -103,7 +103,7 @@ function LoginPage() {
       setEmail("");
       setPassword("");
       history.push("/home");
-      // history.go(0);
+      history.go(0);
     } catch (error) {
       if (error) console.log(error.message);
       return;
