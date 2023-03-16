@@ -72,7 +72,7 @@ export default function UrlTable({ urls }) {
         },
       };
       await axios.delete(
-        `https://url-shortner-be.herokuapp.com/api/url/delete/${id}`,
+        `https://url-shortner-us5z.onrender.com/api/url/delete/${id}`,
         config
       );
       alert("The Url is deleted !");
