@@ -12,7 +12,7 @@ function RedirectPage(props) {
         const shortUrl = location.pathname;
         console.log(shortUrl);
         const { data } = await axios.put(
-          `https://url-shortner-be.herokuapp.com/api/url/redirect${shortUrl}`
+          `https://url-shortner-us5z.onrender.com/api/url/redirect${shortUrl}`
         );
         console.log(data);
         setLoading(false);
