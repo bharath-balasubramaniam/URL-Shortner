@@ -24,7 +24,7 @@ function HomePage() {
         },
       };
       const { data } = await axios.get(
-        "https://url-shortner-be.herokuapp.com/api/url/dashboard",
+        "https://url-shortner-us5z.onrender.com/api/url/dashboard",
         config
       );
       console.log(data, user, config);
@@ -48,7 +48,7 @@ function HomePage() {
         },
       };
       const { data } = await axios.get(
-        `https://url-shortner-be.herokuapp.com/api/url/search?longUrl=${search}`,
+        `https://url-shortner-us5z.onrender.com/api/url/search?longUrl=${search}`,
         config
       );
       console.log(data);
