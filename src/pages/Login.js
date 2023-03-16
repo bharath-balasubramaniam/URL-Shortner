@@ -95,7 +95,7 @@ function LoginPage() {
         headers: { "Content-type": "application/json" },
       };
       const { data } = await axios.post(
-        "https://url-shortner-be.herokuapp.com/api/auth/login",
+        "https://url-shortner-us5z.onrender.com/api/auth/login",
         { email, password },
         config
       );
