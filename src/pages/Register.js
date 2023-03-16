@@ -99,7 +99,7 @@ function RegisterPage() {
         },
       };
       const { data } = await axios.post(
-        "https://url-shortner-be.herokuapp.com/api/auth/signup",
+        "https://url-shortner-us5z.onrender.com/api/auth/signup",
         { name, email, password },
         config
       );
